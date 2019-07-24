@@ -5,7 +5,7 @@
      * All forked public repos at github will be also public, so **never commit sensitive data to your public forks**.
    * List of all forked repos could be retrieved from github page of original project.
 
-2. Add **forked repo** as submodule to desired folder in your existent ansible repo(for example 3d/kubespray):
+2. Add **forked repo** as submodule to desired folder in your existent ansible repo (for example 3d/kubespray):
   ```git submodule add https://github.com/YOUR_GITHUB/kubespray.git kubespray```
   Git will create _.gitmodules_ file in your existent ansible repo:
    ```
